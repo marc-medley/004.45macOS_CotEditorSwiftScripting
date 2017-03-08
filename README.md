@@ -1,4 +1,4 @@
-004.45macOS_CotEditorScripting
+004.45macOS_CotEditorSwiftScripting
 ==============================
 [t]:http://www.github.com
 
@@ -6,7 +6,7 @@ This repository contains scripts for the [CotEditor](https://coteditor.com/) pla
 
 ![CotEditor Script Menu](README_files/CotEditorScriptsMenu.png)
 
-_Advisory: These scripts are provided "as-is" (see [LICENSE](LICENSE.txt)).  Most of the script will modify content of the front window. Undo should restore the window to it's previous state.  Read the scripts. Modify them for your use. Use at you own risk._
+_Advisory: These scripts can modify content of the front window. Undo should restore the window to it's previous state.  Read the scripts. Modify them for your use. Use at you own risk. These scripts are provided "as-is" (see [LICENSE](LICENSE.txt))._
 
 <a id="toc"></a>
 [Prerequisites](#Prerequisites) | [Scripts](#Scripts) | [Resources](Resources)  
