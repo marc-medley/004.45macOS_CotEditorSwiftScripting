@@ -1,5 +1,4 @@
-004.45macOS_CotEditorSwiftScripting
-==============================
+# 004.45macOS_CotEditorSwiftScripting
 [t]:http://www.github.com
 
 <a id="toc"></a>
@@ -11,9 +10,8 @@ This repository contains scripts for the [CotEditor](https://coteditor.com/) pla
 
 _Advisory: These scripts can modify content of the front window. Undo should restore the window to it's previous state.  Read the scripts. Modify them for your use. Use at you own risk. These scripts are provided "as-is" (see [LICENSE](LICENSE.txt))._
 
-<a id="Prerequisites"></a>
-Prerequisites [▴](#toc)
--------
+## Prerequisites <a id="Prerequisites">[▴](#toc)</a>
+
 
 * CotEditor: 
     * installed
@@ -36,9 +34,8 @@ Prerequisites [▴](#toc)
 
 _The scripts were developed on macOS Sierra 10.12 with Swift 3.0.2.  The scripts might not run on older versions._
 
-<a id="Scripts"></a>
-Standalone Scripts [▴](#toc)
-------------------
+## Standalone Scripts <a id="Scripts">[▴](#toc)</a>
+
 
 The Swift scripts are written using a copy & paste subset of the CotEditor.swift and CotEditorScripting.swift in the "templates/" folder. (Each script only needs some part of the definitions.) The CotEditor.swift and CotEditorScripting.swift files were generated based on an approach explained by [Tony Ingraldi](https://github.com/tingraldi/SwiftScripting).  The files in the "templates/ObjC Header/" are intermediates used to generate CotEditor.swift and CotEditorScripting.swift.
 
@@ -69,9 +66,8 @@ _Tidy JSON_ uses Swift Foundation without calling any external Unix tools or app
 
 The `List` scripts show examples for accessing windows and documents.
 
-<a id="ScriptFrameworks"></a>
-Script Frameworks [▴](#toc)
------------------
+## Script Frameworks <a id="ScriptFrameworks">[▴](#toc)</a>
+
 
 Frameworks can be used in swift scripts.
 
@@ -79,17 +75,15 @@ Frameworks can be used in swift scripts.
 #!/usr/bin/swift -F /Library/Frameworks
 ```
 
-<a id="Resources"></a>
-Resources [▴](#toc)
----------
+## Resources <a id="Resources">[▴](#toc)</a>
+
 
 * [GitHub/tingraldi: SwiftScripting ⇗](https://github.com/tingraldi/SwiftScripting) - explain Swift scripting technical approach 
 * [MacPorts](https://www.macports.org/) - open-source community initiative for compiling, installing, and upgrading various open-source software
 * [Meld](http://meldmerge.org/) - a visual diff and merge tool
 * [`tidy`](http://www.html-tidy.org/) - "The granddaddy of HTML tools"
 
-<a id="License"></a>
-License [▴](#toc)
--------
+## License <a id="License">[▴](#toc)</a>
+
 
 The source code is PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND under the terms of the MIT License. See the bundled [LICENSE](LICENSE.txt) for details.
