@@ -10,7 +10,7 @@ This repository contains scripts for the [CotEditor](https://coteditor.com/) pla
 
 _Advisory: These scripts can modify content of the front window. Undo should restore the window to it's previous state.  Read the scripts. Modify them for your use. Use at you own risk. These scripts are provided "as-is" (see [LICENSE](LICENSE.txt))._
 
-## Prerequisites <a id="Prerequisites">[▴](#toc)</a>
+## Prerequisites <a id="Prerequisites"></a>[▴](#toc)
 
 
 * CotEditor: 
@@ -34,7 +34,7 @@ _Advisory: These scripts can modify content of the front window. Undo should res
 
 _The scripts were developed on macOS Sierra 10.12 with Swift 3.0.2.  The scripts might not run on older versions._
 
-## Standalone Scripts <a id="Scripts">[▴](#toc)</a>
+## Standalone Scripts <a id="Scripts"></a>[▴](#toc)
 
 
 The Swift scripts are written using a copy & paste subset of the CotEditor.swift and CotEditorScripting.swift in the "templates/" folder. (Each script only needs some part of the definitions.) The CotEditor.swift and CotEditorScripting.swift files were generated based on an approach explained by [Tony Ingraldi](https://github.com/tingraldi/SwiftScripting).  The files in the "templates/ObjC Header/" are intermediates used to generate CotEditor.swift and CotEditorScripting.swift.
@@ -66,7 +66,7 @@ _Tidy JSON_ uses Swift Foundation without calling any external Unix tools or app
 
 The `List` scripts show examples for accessing windows and documents.
 
-## Script Frameworks <a id="ScriptFrameworks">[▴](#toc)</a>
+## Script Frameworks <a id="ScriptFrameworks"></a>[▴](#toc)
 
 
 Frameworks can be used in swift scripts.
@@ -75,7 +75,7 @@ Frameworks can be used in swift scripts.
 #!/usr/bin/swift -F /Library/Frameworks
 ```
 
-## Resources <a id="Resources">[▴](#toc)</a>
+## Resources <a id="Resources"></a>[▴](#toc)
 
 
 * [GitHub/tingraldi: SwiftScripting ⇗](https://github.com/tingraldi/SwiftScripting) - explain Swift scripting technical approach 
@@ -83,7 +83,7 @@ Frameworks can be used in swift scripts.
 * [Meld](http://meldmerge.org/) - a visual diff and merge tool
 * [`tidy`](http://www.html-tidy.org/) - "The granddaddy of HTML tools"
 
-## License <a id="License">[▴](#toc)</a>
+## License <a id="License"></a>[▴](#toc)
 
 
 The source code is PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND under the terms of the MIT License. See the bundled [LICENSE](LICENSE.txt) for details.
