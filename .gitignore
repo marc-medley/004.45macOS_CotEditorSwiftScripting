@@ -304,6 +304,11 @@ gradle-app.setting
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+#################
+## LibreOffice ##
+#################
+.~lock*
+
 ###########
 ## Maven ##
 ###########
@@ -400,7 +405,8 @@ themes/classic/views/
 
 # REMINDER: do not edit Icon^M^M Carriage Returns
 
-Icon
+Icon
+
 
 
 # END REMINDER
